@@ -1,1 +1,25 @@
-/* css */
+@charset "UTF-8";
+
+body {
+  background-size: cover;
+  background: url(fundo2.png);
+  text-align: center;
+  font-style: oblique;
+  font-size: larger;
+  width: auto
+}
+
+h1 {
+  color: bisque;
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+#msgUsuario {
+  color: azure;
+}
+
+p {
+  color: bisque;
+}

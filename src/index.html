@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
-  <script src="index.js" type="module"></script>
+
+  <div id="inicio">
+    <h1 class="maintitle">The Secret Pass</h1>
+    <div>
+      <p><strong>Digite aqui a senha, código ou texto que deseja criptografar:</strong> </p>
+      <input type="text" id="digiteAqui" size="60">
+      <p><strong>Selecione um número para deslocamento:</strong></p>
+      <input type="number" id="desloc">
+    </div>
+
+    <div>
+      <br>
+      <button id="botao1" class="button1">Codificar</button>
+      <button id="botao2" class="button2">Decifrar</button>
+    </div>
+
+    <div>
+      <p><label for="textocifrado"><strong>Veja como ficou sua senha:</strong></label></p>
+      <textarea id="textocifrado" name="Seu Texto"></textarea>
+
+      <script src="index.js" type="module"></script>
+
 </body>
+
 </html>
